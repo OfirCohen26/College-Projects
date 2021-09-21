@@ -1,7 +1,7 @@
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
-//1234
+
 public class FixedLengthStringIO {
 	/** Read fixed number of characters from a DataInput stream */
 	public static String readFixedLengthString(int size, DataInput in) throws IOException {
