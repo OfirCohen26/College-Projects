@@ -6,7 +6,6 @@
 #include "pictureManipulation.h"
 #include "chooseOption.h"
 
-//1234
 void pictureManipulationOption() {
 	int mat[SIZE][SIZE];
 	initMatWithRandomalValues((int*) mat, SIZE, SIZE); //Initializing a matrix with randomly values
